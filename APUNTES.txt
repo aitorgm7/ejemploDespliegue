@@ -1,0 +1,26 @@
+--- INTERFACE ---
+los elementos o cajas en linea => se ajustan al elemento(width)
+estas no les afecta el width ni el height
+
+
+
+
+
+
+
+
+
+
+***peticiones de isa***
+
+poner en comentarios de donde salen las medidas
+
+
+--- SERVIDOR ---
+
+
+
+
+
+
+***peticiones de isa***

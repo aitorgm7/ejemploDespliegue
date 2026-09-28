@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="formulariorecibido.php" method="get">
+        <label for="DWESV">DWESV</label>
+        <input type="checkbox" name="asignatura" value="DWESV" id="">
+        <label for="DWENC">DWENC</label>
+        <input type="checkbox" name="asignatura" value="DWENC" id=""> <!--Warning: Undefined array key "asignatura" in C:\xampp\htdocs\aitor\formulariorecibido.php on line 2 error al no poner ningun checkbox -->
+        <label for="DEAPW">DEAPW</label>
+        <input type="checkbox" name="asignatura" value="DEAPW" id="">
+        <select name="profesor" id="">
+            <option value="isa">isa</option>
+            <option value="alberto">alberto</option>
+            <option value="ernesto">ernesto</option>
+        </select>
+        <label for="horas">horas</label>
+        <input type="number" name="horas" id="">
+        <label for="info">info</label>
+        <textarea name="info" id=""></textarea>
+        <input type="submit" value="">
+    </form>
+</body>
+</html>
