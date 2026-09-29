@@ -4,6 +4,8 @@ estas no les afecta el width ni el height
 
 
 
+el display inline-block hace que actue como un elemento en linea pero que conserve las propiedades el elemento en bloque
+
 
 
 
