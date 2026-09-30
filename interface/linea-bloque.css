@@ -1,0 +1,68 @@
+/* ====== Estilos generales ====== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: #222;
+    border-bottom: 3px solid #333;
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #0066cc;
+}
+
+.explicacion {
+    background-color: #fffbe6;
+    border-left: 5px solid #ffcc00;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* ====== BLOQUE (visual) ====== */
+.bloque {
+    background-color: #ffcccc;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* ====== EN LÍNEA (visual) ====== */
+.linea {
+    background-color: #cce5ff;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* ====== Cajas de comparación ====== */
+.caja {
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bloque-demo {
+    background-color: crimson;
+    /* Por defecto un div ya es bloque */
+}
+
+.linea-demo {
+    background-color: royalblue;
+    /* Por defecto un span ya es en línea */
+}
+
+/* ====== inline-block ====== */
+.inline-block-demo {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    background-color: seagreen;
+    line-height: 50px;
+}

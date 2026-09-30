@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bloque vs Línea</title>
+    <link rel="stylesheet" href="linea-bloque.css">
+</head>
+<body>
+
+    <h1>Elementos en BLOQUE vs EN LÍNEA</h1>
+
+    <!-- ================= BLOQUE ================= -->
+    <h2>1. Elementos en BLOQUE</h2>
+    <p class="explicacion">
+        Ocupan todo el ancho disponible y empiezan en una línea nueva.
+        Ejemplos: &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;, &lt;ul&gt;, &lt;li&gt;
+    </p>
+
+    <div class="bloque">Soy un DIV (bloque)</div>
+    <div class="bloque">Soy otro DIV (bloque)</div>
+    <p class="bloque">Soy un P (bloque)</p>
+
+    <!-- ================= EN LÍNEA ================= -->
+    <h2>2. Elementos EN LÍNEA</h2>
+    <p class="explicacion">
+        Solo ocupan el ancho de su contenido y se colocan uno al lado del otro.
+        Ejemplos: &lt;span&gt;, &lt;a&gt;, &lt;strong&gt;, &lt;em&gt;
+    </p>
+
+    <span class="linea">Span 1</span>
+    <span class="linea">Span 2</span>
+    <a href="#" class="linea">Enlace</a>
+    <strong class="linea">Strong</strong>
+
+    <!-- ================= COMPARACIÓN ================= -->
+    <h2>3. Comparación directa</h2>
+
+    <div class="caja bloque-demo">DIV (bloque)</div>
+    <span class="caja linea-demo">SPAN (línea)</span>
+    <span class="caja linea-demo">SPAN (línea)</span>
+    <div class="caja bloque-demo">DIV (bloque)</div>
+
+    <!-- ================= INLINE-BLOCK ================= -->
+    <h2>4. inline-block (híbrido)</h2>
+    <p class="explicacion">
+        Se colocan en línea como los inline, pero aceptan width y height como los bloque.
+    </p>
+
+    <div class="caja inline-block-demo">Caja 1</div>
+    <div class="caja inline-block-demo">Caja 2</div>
+    <div class="caja inline-block-demo">Caja 3</div>
+
+</body>
+</html>
